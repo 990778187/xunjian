@@ -57,6 +57,14 @@
   </div>
   <p class="xj-p" style="margin-top:22px">想听哪场夜校、缺哪个剧本？<a href="../about/index.html#contact">点这里告诉我们</a>，下周就安排。</p>
 
+  <div class="xj-sec rv" data-num="03" id="demo">
+    <div class="xj-kick">功能演示 <small>Demo Library</small></div>
+    <h2>48 个官方演示视频，点开就看</h2>
+  </div>
+  <p class="xj-p">从下载安装、智能体、知识库，到电商管家、国际站生意助手与企业版能力——按分组速查，点击卡片直接播放。核心演示已缓存本地加载更快，其余经官方 CDN 播放。</p>
+  <div class="xj-vtabs" id="vtabs"></div>
+  <div class="xj-vids" id="vgrid"><div class="xj-vempty">演示库加载中……</div></div>
+
   <div class="xj-band rv"><div class="xj-band-in">
     <h3>自学卡住了，别硬扛。</h3>
     <p>落地顾问工作日 48 小时内响应，一次通话解决一下午的困惑。</p>
@@ -75,6 +83,77 @@
 </div>
 <div class="copy">© <span data-year>2026</span> 迅吉安 XUNJIAN · 把 AI 用成业务员</div>
 </footer>
+<div class="xj-vmodal" id="vmodal" role="dialog" aria-modal="true">
+  <div class="xj-vbox">
+    <div class="bar"><h5 id="vtitle"></h5><button id="vclose" aria-label="关闭">×</button></div>
+    <video id="vplayer" controls playsinline preload="none"></video>
+  </div>
+</div>
 <script src="../assets/xja.js"></script>
+<script>
+(function(){
+  var grid = document.getElementById('vgrid'),
+      tabs = document.getElementById('vtabs'),
+      modal = document.getElementById('vmodal'),
+      player = document.getElementById('vplayer'),
+      vtitle = document.getElementById('vtitle'),
+      LIST = [];
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function open(v){
+    vtitle.textContent = v.g + ' · ' + v.t;
+    player.src = v.src;
+    modal.classList.add('on');
+    player.play();
+  }
+  function close(){
+    modal.classList.remove('on');
+    player.pause();
+    player.removeAttribute('src');
+    player.load();
+  }
+  document.getElementById('vclose').onclick = close;
+  modal.addEventListener('click', function(e){ if(e.target === modal) close(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') close(); });
+  function render(g){
+    var html = '', n = 0;
+    for(var i = 0; i < LIST.length; i++){
+      var v = LIST[i];
+      if(g !== '全部' && v.g !== g) continue;
+      n++;
+      var local = v.src.indexOf('assets/') === 0;
+      html += '<button class="xj-vid" data-i="' + i + '">'
+        + '<span class="vn">' + esc(v.id.replace('v','')) + '</span>'
+        + '<h5>' + esc(v.t) + '</h5>'
+        + '<p>' + esc(v.d) + '</p>'
+        + '<span class="ft"><span class="play">▶ 播放</span><span class="src">' + (local ? '本地' : '在线') + '</span></span>'
+        + '</button>';
+    }
+    grid.innerHTML = n ? html : '<div class="xj-vempty">该分组暂无演示</div>';
+  }
+  fetch('../assets/videos/manifest.json').then(function(r){ return r.json(); }).then(function(list){
+    LIST = list;
+    var groups = ['全部'];
+    for(var i = 0; i < LIST.length; i++){
+      if(groups.indexOf(LIST[i].g) < 0) groups.push(LIST[i].g);
+    }
+    tabs.innerHTML = groups.map(function(g, i){
+      return '<button data-g="' + esc(g) + '"' + (i === 0 ? ' class="on"' : '') + '>' + esc(g) + '</button>';
+    }).join('');
+    render('全部');
+    tabs.addEventListener('click', function(e){
+      var b = e.target.closest('button');
+      if(!b) return;
+      tabs.querySelectorAll('button').forEach(function(x){ x.classList.toggle('on', x === b); });
+      render(b.getAttribute('data-g'));
+    });
+    grid.addEventListener('click', function(e){
+      var c = e.target.closest('.xj-vid');
+      if(c) open(LIST[+c.getAttribute('data-i')]);
+    });
+  }).catch(function(){
+    grid.innerHTML = '<div class="xj-vempty">演示库暂时无法加载，请刷新重试。</div>';
+  });
+})();
+</script>
 </body>
 </html>

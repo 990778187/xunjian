@@ -1,0 +1,338 @@
+[
+ {
+  "id": "v01",
+  "g": "基础功能",
+  "t": "Accio Work 整体介绍",
+  "d": "面向商家，5 分钟快速了解 Accio Work 的定位、能力与整体使用动线。",
+  "src": "https://cloud.video.taobao.com/vod/GgrrsvByeclh9I0w2UahakOPaOYbHRCZbaVoh_DjtN0.mp4"
+ },
+ {
+  "id": "v02",
+  "g": "基础功能",
+  "t": "下载安装",
+  "d": "客户端下载安装 & 浏览器插件的安装配置。",
+  "src": "https://cloud.video.taobao.com/vod/nbOm6716ft2lJnTLfj0w5X9gcWkXKfjejbYsS6qAszQ.mp4"
+ },
+ {
+  "id": "v03",
+  "g": "基础功能",
+  "t": "新会话",
+  "d": "如何发起一个新的会话任务，开启与智能体的协作。",
+  "src": "https://cloud.video.taobao.com/vod/-L8SkEdNfZvIe0t1DtKcsf4wuZr1MXZ8MPhOMvs7ytc.mp4"
+ },
+ {
+  "id": "v04",
+  "g": "基础功能",
+  "t": "智能体",
+  "d": "新建一个智能体，按业务场景定制专属助手。",
+  "src": "https://cloud.video.taobao.com/vod/uSWNvkxE4we5nxY6ryWZUMu44IYYSRG4MW8pfk6-bnM.mp4"
+ },
+ {
+  "id": "v05",
+  "g": "基础功能",
+  "t": "定时任务",
+  "d": "新建一个定时任务，让智能体按计划自动执行。",
+  "src": "https://cloud.video.taobao.com/vod/HgNMFEkhZy4cMX64-rslQIxt9PBl1lxOw3lvVDOE2Y8.mp4"
+ },
+ {
+  "id": "v06",
+  "g": "基础功能",
+  "t": "知识库",
+  "d": "个人 & 企业知识库的搭建与使用。",
+  "src": "https://cloud.video.taobao.com/vod/uZv1vQQMPg4OxNH5IJXKYNcyHBUwYpxM8juTcjIhqiA.mp4"
+ },
+ {
+  "id": "v07",
+  "g": "基础功能",
+  "t": "移动端",
+  "d": "移动端使用方式与随时随地协作能力。",
+  "src": "https://cloud.video.taobao.com/vod/Wp3wiRIard349hhxXXJxBoOB3UCW3vyBbJnS7p05LkQ.mp4"
+ },
+ {
+  "id": "v08",
+  "g": "电商管家",
+  "t": "概览介绍",
+  "d": "电商管家的整体能力概览。",
+  "src": "https://cloud.video.taobao.com/vod/e7mzqw4eXjKE210ygIECwOfcHLYhzinOnQLjWmJBPdw.mp4"
+ },
+ {
+  "id": "v09",
+  "g": "电商管家",
+  "t": "事前准备",
+  "d": "开店经营前的准备工作与配置。",
+  "src": "https://cloud.video.taobao.com/vod/DSRfp7r-JEz9V1KrgAFEo20IavaMVUCUJKMc-y6gsmc.mp4"
+ },
+ {
+  "id": "v10",
+  "g": "电商管家",
+  "t": "发品实操",
+  "d": "商品发布的实操演示。",
+  "src": "https://cloud.video.taobao.com/vod/1XX4sCpeMHkgr2iWRkGdRYXDqnhGdcCk5lWB5gMSMQc.mp4"
+ },
+ {
+  "id": "v11",
+  "g": "电商管家",
+  "t": "多平台发品",
+  "d": "一次编辑，多平台同步发品。",
+  "src": "https://cloud.video.taobao.com/vod/oqBTBjjtBOEkMVwAov8ZnXOIia-rPF7WlD7_AFbUj00.mp4"
+ },
+ {
+  "id": "v12",
+  "g": "电商管家",
+  "t": "多平台经营看板",
+  "d": "跨平台经营数据的统一看板。",
+  "src": "assets/videos/v12.mp4"
+ },
+ {
+  "id": "v13",
+  "g": "电商管家",
+  "t": "广告转化分析",
+  "d": "广告投放效果与转化分析。",
+  "src": "https://cloud.video.taobao.com/vod/VHdWm-Q2xd0U9tYCDayssO9jT0Ol5tbJzub3HUmBAgo.mp4"
+ },
+ {
+  "id": "v14",
+  "g": "电商管家",
+  "t": "用户转化卡点",
+  "d": "定位用户转化路径中的卡点。",
+  "src": "https://cloud.video.taobao.com/vod/pJ0IUF8O4wQy3Terlmse5o2osTOrMlbpH3C6ftU4jFo.mp4"
+ },
+ {
+  "id": "v15",
+  "g": "电商管家",
+  "t": "竞品分析报告",
+  "d": "自动生成竞品分析报告。",
+  "src": "https://cloud.video.taobao.com/vod/fjFrfNPbf5OPPpGVC7R-EaC5-H4AUauvjcugZgYyH3c.mp4"
+ },
+ {
+  "id": "v16",
+  "g": "国际站生意助手",
+  "t": "概览介绍",
+  "d": "国际站生意助手的整体能力概览。",
+  "src": "assets/videos/v16.mp4"
+ },
+ {
+  "id": "v17",
+  "g": "国际站生意助手",
+  "t": "快速发品",
+  "d": "URL 发品 / 素材包发品，快速上新。",
+  "src": "assets/videos/v17.mp4"
+ },
+ {
+  "id": "v18",
+  "g": "国际站生意助手",
+  "t": "全商品一站式编辑优化",
+  "d": "批量编辑与优化全店商品。",
+  "src": "assets/videos/v18.mp4"
+ },
+ {
+  "id": "v19",
+  "g": "国际站生意助手",
+  "t": "创意工坊生图 + 生视频",
+  "d": "快速生成图片与视频，提高流量。",
+  "src": "https://cloud.video.taobao.com/vod/y6F-F_lrVLaPVMcfe4FexdD7qcuPJpVUv3e85rnoaaY.mp4"
+ },
+ {
+  "id": "v20",
+  "g": "国际站生意助手",
+  "t": "提高旺铺转化率 / 旺铺装修",
+  "d": "旺铺装修与转化率提升。",
+  "src": "https://cloud.video.taobao.com/vod/tALEL6R8Jf_qA1t9mjy1BlNlV6TxVT4L8hZRMsYd1Ow.mp4"
+ },
+ {
+  "id": "v21",
+  "g": "国际站生意助手",
+  "t": "店铺经营分析看板",
+  "d": "店铺经营数据分析看板。",
+  "src": "https://cloud.video.taobao.com/vod/-RfjTJohIATgQL39_zzFKM4jWGd_Z8kRzri5u_lcnq8.mp4"
+ },
+ {
+  "id": "v22",
+  "g": "国际站生意助手",
+  "t": "智能诊断国际站智投方案计划",
+  "d": "智能诊断并生成投放方案计划。",
+  "src": "assets/videos/v22.mp4"
+ },
+ {
+  "id": "v23",
+  "g": "国际站生意助手",
+  "t": "沟通接待转化",
+  "d": "背调 + 谈判策略 + 批量触达。",
+  "src": "assets/videos/v23.mp4"
+ },
+ {
+  "id": "v24",
+  "g": "国际站生意助手",
+  "t": "高效搜索 RFQ 商机 + 定时巡检",
+  "d": "高效发现 RFQ 商机并定时巡检。",
+  "src": "assets/videos/v24.mp4"
+ },
+ {
+  "id": "v25",
+  "g": "1688生意助手",
+  "t": "1688AI 业务员 / 客户运营",
+  "d": "1688 场景下的客户运营与 AI 业务员能力。",
+  "src": "https://cloud.video.taobao.com/vod/5AbKEfeQueDUbIvB9PqQ2fA9DrX4PinnwoTKvL1hf5A.mp4"
+ },
+ {
+  "id": "v26",
+  "g": "1688生意助手",
+  "t": "1688 选品开款",
+  "d": "1688 平台选品与开款流程。",
+  "src": "https://cloud.video.taobao.com/vod/5UqLtjIpre7qtMvQf_wFokbTA9dHTCCv2jy7Rvo4_0U.mp4"
+ },
+ {
+  "id": "v27",
+  "g": "1688生意助手",
+  "t": "1688 美工设计场景",
+  "d": "1688 店铺视觉与美工设计。",
+  "src": "https://cloud.video.taobao.com/vod/n2JJVlPgxc5aJFASfvcMJjIJhPdzZErywByJ6ixSeYo.mp4"
+ },
+ {
+  "id": "v28",
+  "g": "1688生意助手",
+  "t": "1688 广告诊断",
+  "d": "1688 广告投放诊断与优化。",
+  "src": "https://cloud.video.taobao.com/vod/jkETKiVK5SYWf-a7KtMB_TPccCThKNHCUIcKX7MpSlg.mp4"
+ },
+ {
+  "id": "v29",
+  "g": "1688生意助手",
+  "t": "1688 多店管理",
+  "d": "1688 多店铺统一管理。",
+  "src": "https://cloud.video.taobao.com/vod/IkEGHZP1OQ9oxcDrkVsShBQMjLWkpvQ8kbnGriG6HKo.mp4"
+ },
+ {
+  "id": "v30",
+  "g": "设计专家",
+  "t": "设计专家",
+  "d": "支持图像生成、视频创作与视觉内容编辑。",
+  "src": "https://cloud.video.taobao.com/vod/-GZrXfpVqxgDG7eGXn_7BL4XiVNoWzST0GbMSoxO1-M.mp4"
+ },
+ {
+  "id": "v31",
+  "g": "建站专家",
+  "t": "Accio 建站专家",
+  "d": "与 AI 对话构建可上线网站，支持自动更新、线索收集、预约通知、数据库连接、自定义域名等。",
+  "src": "https://cloud.video.taobao.com/vod/4w8q3s0RzMOlmIR3Jf7AtV82dlR781O9GmQ-sdHZjG8.mp4"
+ },
+ {
+  "id": "v32",
+  "g": "Shopify店长",
+  "t": "Shopify店长",
+  "d": "Shopify 开店专家。",
+  "src": "https://cloud.video.taobao.com/vod/bGZ3SqPzYsTM33qXy_vZS5riX5v5AyEhC_q1kTCpBBU.mp4"
+ },
+ {
+  "id": "v33",
+  "g": "Accio 助手",
+  "t": "Accio 助手",
+  "d": "处理各类商业任务。",
+  "src": "assets/videos/v33.mp4"
+ },
+ {
+  "id": "v34",
+  "g": "插件",
+  "t": "插件",
+  "d": "插件、技能、应用授权的管理与使用。",
+  "src": "https://cloud.video.taobao.com/vod/YbdYbuvJRsOjGLokjNhmh7zZ04gritCwS2FztIMfNRI.mp4"
+ },
+ {
+  "id": "v35",
+  "g": "插件",
+  "t": "安装插件",
+  "d": "安装插件并在会话中调用使用。",
+  "src": "assets/videos/v35.mp4"
+ },
+ {
+  "id": "v36",
+  "g": "插件",
+  "t": "1688 插件",
+  "d": "为 1688 商家提供店铺绑定、店铺诊断、商品发布、选品找商等经营支持服务。",
+  "src": "https://cloud.video.taobao.com/vod/JRo08vwzUgjIjaXOwebIRnDIp9CcFQAyl76Dk8eYLJo.mp4"
+ },
+ {
+  "id": "v37",
+  "g": "插件",
+  "t": "okki 插件",
+  "d": "OKKI Shops、AiReach、CRM 能力接入。",
+  "src": "https://cloud.video.taobao.com/vod/-QLr2q3LuSDzBsJdZhi7sZQRubCLVSGzYCA1BZRbPck.mp4"
+ },
+ {
+  "id": "v38",
+  "g": "渠道消息",
+  "t": "消息渠道",
+  "d": "绑定一个消息渠道（钉钉、飞书、微信、企微）。",
+  "src": "https://cloud.video.taobao.com/vod/SG1MTFqb-mjY-JHp4UtJJ4ErStz7zFgfjtAJaRu2wRE.mp4"
+ },
+ {
+  "id": "v39",
+  "g": "渠道消息",
+  "t": "钉钉",
+  "d": "钉钉三方渠道配置。",
+  "src": "https://cloud.video.taobao.com/vod/w1MHW5nT0ykv5lGvUBbtGRHl2XfsQP60nwgV3jv2wG8.mp4"
+ },
+ {
+  "id": "v40",
+  "g": "渠道消息",
+  "t": "飞书",
+  "d": "飞书三方渠道配置。",
+  "src": "https://cloud.video.taobao.com/vod/_8M_HyTvGVk_1Q9KSLDhnFmkhyyA5cTBUYWonOFK7GM.mp4"
+ },
+ {
+  "id": "v41",
+  "g": "渠道消息",
+  "t": "微信",
+  "d": "微信三方渠道配置。",
+  "src": "https://cloud.video.taobao.com/vod/T1ePHKsv7s4WFoUy0rlUTAQTbavl80rVSxTqWIG_OIw.mp4"
+ },
+ {
+  "id": "v42",
+  "g": "渠道消息",
+  "t": "企业微信",
+  "d": "企业微信三方渠道配置。",
+  "src": "https://cloud.video.taobao.com/vod/7zVz3Y45a93hlHZFnKtYpV4bzzNL3VIe_VjtaPNz8OA.mp4"
+ },
+ {
+  "id": "v43",
+  "g": "企业版",
+  "t": "企业版整体介绍",
+  "d": "企业版整体能力介绍。",
+  "src": "assets/videos/v43.mp4"
+ },
+ {
+  "id": "v44",
+  "g": "企业版",
+  "t": "添加 / 移除成员",
+  "d": "企业成员的添加与移除管理。",
+  "src": "https://cloud.video.taobao.com/vod/ejq59uHclNIw7sGqidLKhkqkVayWzRgYysypPeNNanA.mp4"
+ },
+ {
+  "id": "v45",
+  "g": "企业版",
+  "t": "多店铺绑定",
+  "d": "国际站多店铺绑定。",
+  "src": "assets/videos/v45.mp4"
+ },
+ {
+  "id": "v46",
+  "g": "企业版",
+  "t": "智能体共享",
+  "d": "企业内智能体共享。",
+  "src": "https://cloud.video.taobao.com/vod/Z95q7779u0OsrDLGqCQMu7zmI7ITPXojm7ZezlOFAgQ.mp4"
+ },
+ {
+  "id": "v47",
+  "g": "企业版",
+  "t": "技能共享",
+  "d": "企业内技能共享。",
+  "src": "https://cloud.video.taobao.com/vod/ocDXB8P0XTOFfeDALW4Bera11FX0T6mRKbCp7pa6CpE.mp4"
+ },
+ {
+  "id": "v48",
+  "g": "企业版",
+  "t": "企业知识库",
+  "d": "企业级知识库，支持分部门查看。",
+  "src": "https://cloud.video.taobao.com/vod/PJEOyPVfWXEVPrcXK3WKlDL8kPEY-vuILyCZKNNa9V4.mp4"
+ }
+]
